@@ -38,15 +38,20 @@ The following user stories were considered to guide the design and functionality
 The wireframes were designed to reflect the simple and structured layout of Wellness One, prioritising usability and accessibility:
 
 1. **Landing Section**:
-  - Features a hero image with a calming background, a concise welcome message, and navigation links.
+    - Features a hero image with a calming background, a concise welcome message, and navigation links.
+    ![Landing Wireframe](assets/wireframes/Landing.png)
 2. **Mental Health Information Section**:
-  - Divided into easy-to-read subsections covering common challenges like anxiety and depression.
+    - Divided into easy-to-read subsections covering common challenges like anxiety and depression.
+    ![Mental Health Information Wireframe](assets/wireframes/MentalHealthInformation.png)
 3. **Stress Management Section**:
   - Displays practical advice in a bullet point or list format for quick implementation.
+  ![Stress Management Wireframe](assets/wireframes/StressManagement.png)
 4. **Resources Section**:
   - Includes external links to trusted organisations and tools.
+  ![Resources Wireframe](assets/wireframes/Resources.png)
 5. **Footer**:
   - Contains social media icons, a contact email, and any disclaimers or additional notes.
+  ![Footer Wireframe](assets/wireframes/Footer.png)
 
 ## Additional UX/UI Considerations
 
