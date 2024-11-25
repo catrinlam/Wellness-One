@@ -1,7 +1,19 @@
+:root {
+    --primary-color: #A8DADC;
+    --secondary-color: #457B9D;
+    --background-color: #F1FAEE;
+    --accent-color: #574D6B;
+    --text-color: #2F2D2E;
+}
+
 body {
+    background-color: var(--background-color);
+    color: var(--text-color);
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
+/* Hero Section */
 .hero-section {
     background-image: url('https://source.unsplash.com/1600x900/?calm,nature');
     background-size: cover;
@@ -13,28 +25,55 @@ body {
     justify-content: center;
     text-align: center;
 }
+
 .hero-content {
     background: rgba(0, 0, 0, 0.5); /* Overlay for better text readability */
     padding: 20px;
     border-radius: 10px;
 }
+
+/* Button */
 .btn-explore {
     margin-top: 20px;
-    background-color: #6c757d;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--text-color);
     border: none;
     transition: background-color 0.3s;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
+
 .btn-explore:hover {
-    background-color: #495057;
+    background-color: var(--accent-color); /* Highlight on hover */
+    color: var(--background-color);
 }
+
+/* Navbar */
+.navbar {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+}
+
 .navbar-brand {
     font-weight: bold;
-    color: #495057 !important;
+    color: var(--text-color) !important;
 }
+
 .nav-link {
-    color: #6c757d !important;
+    color: var(--text-color) !important;
+    transition: color 0.3s;
 }
+
 .nav-link:hover {
-    color: #495057 !important;
+    color: var(--accent-color) !important; /* Highlight on hover */
+}
+
+/* Footer */
+footer {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    text-align: center;
+    padding: 20px 0;
 }

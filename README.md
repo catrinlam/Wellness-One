@@ -56,7 +56,8 @@ The wireframes were designed to reflect the simple and structured layout of Well
 ## Additional UX/UI Considerations
 
 **Accessibility**:
-  - Colour contrast and font sizes were tested to ensure readability for users with visual impairments.
+  - Colour contrast and font sizes were tested to ensure readability for users with visual impairments. The chosen colour scheme, shown below, was selected to provide a calming and soothing experience:
+  ![Colour Scheme](assets/images/ColourSchemes.png)
   - The navigation bar and buttons are large and easy to click, improving usability for individuals with motor impairments.
 
 **User Flow**:
