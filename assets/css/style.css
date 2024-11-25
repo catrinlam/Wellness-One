@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.hero-section {
+    background-image: url('https://source.unsplash.com/1600x900/?calm,nature');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero-content {
+    background: rgba(0, 0, 0, 0.5); /* Overlay for better text readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+.btn-explore {
+    margin-top: 20px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+}
+.btn-explore:hover {
+    background-color: #495057;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #495057 !important;
+}
+.nav-link {
+    color: #6c757d !important;
+}
+.nav-link:hover {
+    color: #495057 !important;
+}
