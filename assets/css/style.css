@@ -123,6 +123,78 @@ body {
     color: var(--background-color);
 }
 
+/* Resources Section */
+#resources {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 40px 0;
+}
+
+/* General Card Styling */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    text-decoration: underline;
+}
+
+/* Emergency Card Styling */
+.emergency-card {
+    background-color: #d32f2f; /* Matches the red in the image */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.emergency-card h4 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.emergency-card ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.emergency-card li {
+    margin-bottom: 0.5rem;
+}
+
+.emergency-card a {
+    color: #fbe9e7; /* Light white-pink link colour */
+    text-decoration: underline;
+}
+
+.emergency-card a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+#resources h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+#resources h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
 /* Footer */
 footer {
     background-color: var(--text-color);
