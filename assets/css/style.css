@@ -130,6 +130,17 @@ body {
     padding: 40px 0;
 }
 
+#resources h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+#resources h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
 /* General Card Styling */
 .card {
     border: none;
@@ -153,8 +164,8 @@ body {
 
 /* Emergency Card Styling */
 .emergency-card {
-    background-color: #d32f2f; /* Matches the red in the image */
-    border-radius: 8px;
+    background-color: #d32f2f;
+    /* border-radius: 8px; */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -174,7 +185,7 @@ body {
 }
 
 .emergency-card a {
-    color: #fbe9e7; /* Light white-pink link colour */
+    color: var(--background-color);
     text-decoration: underline;
 }
 
@@ -183,22 +194,83 @@ body {
     color: #ffffff;
 }
 
-
-#resources h2 {
-    font-size: 24px;
-    font-weight: bold;
-    color: var(--secondary-color);
-}
-
-#resources h5 {
-    font-size: 16px;
-    font-weight: bold;
-}
-
 /* Footer */
-footer {
-    background-color: var(--text-color);
+.footer {
+    background-color: var(--secondary-color) !important;
+    color: var(--background-color) !important;
+    font-size: 0.9rem;
+}
+
+.footer h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer a {
     color: var(--background-color);
-    text-align: center;
-    padding: 20px 0;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+/* Social Media Icons */
+.social-icons a {
+    font-size: 1.5rem;
+    /* Icon size */
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: var(--accent-color);
+}
+
+/* Newsletter Signup */
+.input-group input {
+    border: none;
+    border-radius: 0;
+    padding: 0.5rem 1rem;
+    outline: none;
+}
+
+.input-group button {
+    border-radius: 0;
+    background-color: var(--text-color);
+    border: none;
+    color: var(--background-color);
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.input-group button:hover {
+    background-color: var(--accent-color);
+}
+
+/* Footer Bottom Text */
+.footer-bottom {
+    border-top: 1px solid var(--primary-color);
+    padding-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-bottom a {
+    font-size: 0.8rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer .row>div {
+        margin-bottom: 2rem;
+    }
 }
