@@ -2,7 +2,7 @@
     --primary-color: #A8DADC;
     --secondary-color: #457B9D;
     --background-color: #F1FAEE;
-    --accent-color: #574D6B;
+    --accent-color: #422F68;
     --text-color: #2F2D2E;
 }
 
@@ -27,7 +27,8 @@ body {
 }
 
 .hero-content {
-    background: rgba(0, 0, 0, 0.5); /* Overlay for better text readability */
+    background: rgba(0, 0, 0, 0.5);
+    /* Overlay for better text readability */
     padding: 20px;
     border-radius: 10px;
 }
@@ -46,7 +47,8 @@ body {
 }
 
 .btn-explore:hover {
-    background-color: var(--accent-color); /* Highlight on hover */
+    background-color: var(--accent-color);
+    /* Highlight on hover */
     color: var(--background-color);
 }
 
@@ -67,7 +69,58 @@ body {
 }
 
 .nav-link:hover {
-    color: var(--accent-color) !important; /* Highlight on hover */
+    color: var(--accent-color) !important;
+    /* Highlight on hover */
+}
+
+/* Section Styles */
+#mental-health-info {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+#mental-health-info h2 {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.accordion-button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-weight: bold;
+    border: none;
+
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F1FAEE'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 15px;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--accent-color);
+    color: var(--background-color);
 }
 
 /* Footer */
