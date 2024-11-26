@@ -159,9 +159,8 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 - The ReadMe file was rewritten and structured using ChatGPT to ensure clarity and professionalism
 - Mental health information adapted from NHS and Mind.org resources.
 - The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- Background image from Unsplash.
+- Background image from [Unsplash](https://unsplash.com/) by [Kelly Sikkema](https://unsplash.com/photos/person-reaching-black-heart-cutout-paper-XX2WTbLr3r8).
