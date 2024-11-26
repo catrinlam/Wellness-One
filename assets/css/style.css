@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --primary-color: #A8DADC;
     --secondary-color: #457B9D;
@@ -10,12 +12,12 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 /* Hero Section */
 .hero-section {
-    background-image: url('../images/hero.jpg');
+    background-image: url('../images/hero.png');
     background-size: cover;
     background-position: center;
     
@@ -27,12 +29,12 @@ body {
     text-align: center;
 }
 
-.hero-content {
+/* .hero-content {
     background: rgba(0, 0, 0, 0.5);
     /* Overlay for better text readability */
-    padding: 20px;
+    /* padding: 20px;
     border-radius: 10px;
-}
+} */ 
 
 /* Button */
 .btn-explore {

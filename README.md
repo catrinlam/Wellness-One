@@ -131,6 +131,7 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+lighthouse
 ### Validator Testing
 
 - HTML
