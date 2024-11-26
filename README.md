@@ -4,7 +4,7 @@ Wellness One is a one-page website designed to provide easy-to-understand, begin
 
 The site is built with HTML and CSS using the Bootstrap framework, ensuring a responsive and aesthetically pleasing design across all devices. The focus is on delivering a welcoming and organised interface that meets the needs of its audience.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](assets/images/wellness-one-mockup.png)
 
 ## Site Goals
 
@@ -93,10 +93,7 @@ In this section, you should go over the different parts of your project, and des
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- **Stress Management Tips**
 
-  - A concise list of practical stress management techniques, such as breathing exercises and time management tips, is included here.
-  - Users gain actionable advice that they can implement immediately to improve their mental well-being.
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
@@ -114,6 +111,11 @@ In this section, you should go over the different parts of your project, and des
 
 ### Features Left to Implement
 
+- **Stress Management Tips**
+
+  - A concise list of practical stress management techniques, such as breathing exercises and time management tips, is included here.
+  - Users gain actionable advice that they can implement immediately to improve their mental well-being.
+
 - **Interactive Quiz**
 
   - A short, interactive quiz to help users identify their stress levels and receive personalised tips.
@@ -123,21 +125,24 @@ In this section, you should go over the different parts of your project, and des
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Functional Testing
+- Please see [TESTING.md](TESTING.md) file for all testing.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### Lighthouse Results
+- Desktop Lighthouse Report:
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+![Desktop Report](assets/images/desktop-lighthouse.png)
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- Mobile Lighthouse Report:
 
-lighthouse
+![Mobile Report](assets/images/mobile-lighthouse-report.png)
+
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcatrin.is-a.dev%2Fwellness-one%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcatrin.is-a.dev%2Fwellness-one)
 
 ### Unfixed Bugs
 
@@ -150,7 +155,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
   - From the source section drop-down menu, select the Deploy Branch
   - Once the Deploy branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - https://catrin.is-a.dev/wellness-one/
 
 ## Credits
 
@@ -158,8 +163,8 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 - Used [Readme Template](https://github.com/Code-Institute-Solutions/readme-template) by Code Institute
 - The ReadMe file was rewritten and structured using ChatGPT to ensure clarity and professionalism
-- Mental health information adapted from NHS and Mind.org resources.
-- The text for the Home page was taken from Wikipedia Article A
+- Mental health information adapted from [NHS](https://www.nhs.uk/mental-health/) and [Mind.org](https://www.mind.org.uk/) resources.
+- The font was taken from [Google Fonts](https://fonts.google.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
