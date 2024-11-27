@@ -20,7 +20,6 @@ body {
     background-image: url('../images/hero.png');
     background-size: cover;
     background-position: center;
-    
     height: 100vh;
     color: white;
     display: flex;
@@ -140,13 +139,11 @@ body {
 }
 
 #stress-management h2 {
-    font-size: 20px;
     font-weight: bold;
     color: var(--secondary-color);
 }
 
 #stress-management p {
-    font-size: 16px;
     line-height: 1.6;
     margin-bottom: 20px;
 }
@@ -162,7 +159,6 @@ body {
     align-items: center;
     gap: 10px;
     margin-bottom: 15px;
-    font-size: 16px;
     line-height: 1.5;
     background-color: var(--background-color); 
     padding: 10px 15px;
@@ -197,7 +193,6 @@ body {
 }
 
 #resources h2 {
-    font-size: 24px;
     font-weight: bold;
     color: var(--secondary-color);
 }
@@ -271,7 +266,6 @@ body {
 }
 
 .footer h5 {
-    font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
@@ -321,7 +315,7 @@ body {
 .footer-bottom {
     border-top: 1px solid var(--primary-color);
     padding-top: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .footer-bottom p {
@@ -329,7 +323,7 @@ body {
 }
 
 .footer-bottom a {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 /* Mobile Responsiveness */
