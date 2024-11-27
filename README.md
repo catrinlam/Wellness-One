@@ -166,6 +166,16 @@ Accessible Report:
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcatrin.is-a.dev%2Fwellness-one)
   ![CSS Validator Report](assets/images/readme-images/css-validator.png)
 
+### Unfixed Bugs
+
+- Hero Image Size (1MB)
+
+  The hero image on the homepage is 1MB in size, which impacts performance and results in a low Lighthouse score.
+
+- Internal Links to Info and Tips Section
+
+  When clicking on the internal links in the Mental Health Info and Tips section, some of the headers may be hidden behind the navigation bar.
+
 
 ## Deployment
 
