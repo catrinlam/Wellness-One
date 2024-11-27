@@ -1,4 +1,4 @@
-Manual testing was carried out throughout the development of the website and note all the bugs found in [Bugs & Fixes](https://github.com/catrinlam/wellness-one#unfixed-bugs)
+Manual testing was carried out throughout the development of the website.
 
 | Location           | Feature                 | Expected Outcome                                                                                                                                  | Pass/Fail | Notes                                                                      |
 | ------------------ | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------------- |

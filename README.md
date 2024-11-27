@@ -4,7 +4,7 @@ Wellness One is a one-page website designed to provide easy-to-understand, begin
 
 The site is built with HTML and CSS using the Bootstrap framework, ensuring a responsive and aesthetically pleasing design across all devices. The focus is on delivering a welcoming and organised interface that meets the needs of its audience.
 
-![Responsice Mockup](assets/images/wellness-one-mockup.png)
+![Responsice Mockup](assets/images/readme-images/wellness-one-mockup.png)
 
 ## Site Goals
 
@@ -77,44 +77,45 @@ In this section, you should go over the different parts of your project, and des
   - A responsive navigation bar located at the top of the page provides links to all sections: Home, Mental Health Info, Stress Management Tips, and Resources.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+  ![Nav Bar](assets/images/readme-images/nav-bar.png)
 
 - **The landing page image**
 
   - The landing section includes a soothing background image with an uplifting welcome message, introducing the site's purpose and encouraging users to explore.
   - This feature creates a positive first impression, inviting users to learn more about mental health.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+  ![Landing Page](assets/images/readme-images/landing.png)
 
 - **Mental Health Information Section**
 
   - This section outlines common mental health challenges like anxiety and depression, explained in a simple and approachable tone.
   - It provides value by educating users without overwhelming them, making mental health topics more accessible.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  ![Mental Health Information Section](assets/images/readme-images/mental-health-info.png)
 
 
+- **Stress Management Tips Section**
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+  - A concise list of practical stress management techniques, such as breathing exercises and time management tips, is included here.
+  - Users gain actionable advice that they can implement immediately to improve their mental well-being.
+
+  ![Stress Management Tips Section](assets/images/readme-images/stress-management-tips.png)
 
 - **Resources Section**
 
   - Links to trusted mental health organisations, helplines, and articles are provided in this section.
   - This feature ensures users can easily find further support if needed.
 
+  ![Resources Section](assets/images/readme-images/resources.png)
+
 - **The Footer**
 
   - The footer includes links to the website's social media accounts and an email contact for feedback or additional queries.
   - By encouraging users to connect, this section fosters a sense of community and support.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+  ![Footer](assets/images/readme-images/footer.png)
 
 ### Features Left to Implement
-
-- **Stress Management Tips**
-
-  - A concise list of practical stress management techniques, such as breathing exercises and time management tips, is included here.
-  - Users gain actionable advice that they can implement immediately to improve their mental well-being.
 
 - **Interactive Quiz**
 
@@ -122,6 +123,9 @@ In this section, you should go over the different parts of your project, and des
 
 - **Newsletter Sign-Up**
   - A sign-up form to allow users to receive regular updates and mental health tips via email.
+
+- **Theme Changing**
+  - Implement a dropdown that allows users to switch between light and dark themes for a customised browsing experience.
 
 ## Testing
 
@@ -131,28 +135,28 @@ In this section, you should go over the different parts of your project, and des
 ### Lighthouse Results
 - Desktop Lighthouse Report:
 
-![Desktop Report](assets/images/desktop-lighthouse.png)
+  ![Desktop Report](assets/images/readme-images/desktop-lighthouse.png)
 
 - Mobile Lighthouse Report:
 
-![Mobile Report](assets/images/mobile-lighthouse.png)
+  ![Mobile Report](assets/images/readme-images/mobile-lighthouse.png)
 
 ### [WCAG Accessible Web Helper](https://chromewebstore.google.com/detail/accessible-web-helper/gdnpkbipbholkoaggmlblpbmgemddbgb)
 
 Accessible Report:
 
-![Accessible Report](assets/images/accessible-report.png)
+![Accessible Report](assets/images/readme-images/accessible-report.png)
 
 ### Validator Testing
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcatrin.is-a.dev%2Fwellness-one%2F)
+  ![HTML Validator Report](assets/images/readme-images/html-validator.png)
+
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcatrin.is-a.dev%2Fwellness-one)
+  ![CSS Validator Report](assets/images/readme-images/css-validator.png)
 
-### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 ## Deployment
 
