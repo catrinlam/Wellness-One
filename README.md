@@ -126,7 +126,7 @@ In this section, you should go over the different parts of your project, and des
 ## Testing
 
 ### Functional Testing
-- Please see [TESTING.md](TESTING.md) file for all testing.
+- Please see [TESTING.md](TESTING.md) file for all manual testing.
 
 ### Lighthouse Results
 - Desktop Lighthouse Report:
@@ -135,7 +135,13 @@ In this section, you should go over the different parts of your project, and des
 
 - Mobile Lighthouse Report:
 
-![Mobile Report](assets/images/mobile-lighthouse-report.png)
+![Mobile Report](assets/images/mobile-lighthouse.png)
+
+### [WCAG Accessible Web Helper](https://chromewebstore.google.com/detail/accessible-web-helper/gdnpkbipbholkoaggmlblpbmgemddbgb)
+
+Accessible Report:
+
+![Accessible Report](assets/images/accessible-report.png)
 
 ### Validator Testing
 
