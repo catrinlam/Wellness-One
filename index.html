@@ -20,7 +20,17 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#home">Wellness One</a>
+
+            <a class="navbar-brand d-none d-sm-block" href="#">
+                <img src="/assets/images/nav-logo.svg" width="50" height="50" class="d-inline-block align-top"
+                    alt="Wellness One logo">
+                Wellness One
+            </a>
+            <a class="navbar-brand d-block d-sm-none" href="#">
+                <img src="/assets/images/nav-logo.svg" width="50" height="50" class="d-inline-block align-top"
+                    alt="Wellness One logo">
+            </a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,6 +42,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#mental-health-info">Mental Health Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#stress-management">Stress Management Tips</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#resources">Help</a>
@@ -107,6 +120,34 @@
         </div>
     </section>
 
+    <!-- Stress Management Section -->
+    <section id="stress-management" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Stress Management Tips</h2>
+            <p class="text-center mb-4">
+                Here are some simple, practical techniques you can try to help manage stress in your daily life.
+            </p>
+            <ul class="stress-tips-list">
+                <li class="stress-tip">
+                    <i class="fas fa-spa me-3 stress-icon"></i>
+                    Practice deep breathing when feeling stressed.
+                </li>
+                <li class="stress-tip">
+                    <i class="fas fa-clock me-3 stress-icon"></i>
+                    Take breaks to clear your mind.
+                </li>
+                <li class="stress-tip">
+                    <i class="fas fa-tasks me-3 stress-icon"></i>
+                    Use time management techniques to stay organised.
+                </li>
+            </ul>
+            <div class="text-center mt-4">
+                <a href="#resources" class="btn btn-primary">Explore More Resources</a>
+            </div>
+        </div>
+    </section>
+
+
     <!-- Resources Section -->
     <section id="resources" class="py-5">
         <div class="container">
@@ -140,8 +181,8 @@
                 <div class="col-md-4 mb-4">
                     <div class="card shadow-sm">
                         <div class="card-body">
-                            <h4 class="card-title"><a href="https://www.nhs.uk/nhs-services/mental-health-services/" target="_blank"
-                                    rel="noopener noreferrer">NHS</a></h4>
+                            <h4 class="card-title"><a href="https://www.nhs.uk/nhs-services/mental-health-services/"
+                                    target="_blank" rel="noopener noreferrer">NHS</a></h4>
                             <p class="card-text">Access mental health support and resources from the UK National Health
                                 Service.</p>
                         </div>
@@ -152,9 +193,11 @@
             <div class="emergency-card mt-5 p-4 text-white">
                 <h4><strong>If it's an emergency or you need urgent help</strong></h4>
                 <ul class="mb-3">
-                    <li>If you or someone else is in danger, call <a href="tel:999"><strong>999</strong></a> or go to <strong>A&E</strong>
+                    <li>If you or someone else is in danger, call <a href="tel:999"><strong>999</strong></a> or go to
+                        <strong>A&E</strong>
                         now.</li>
-                    <li>If you need urgent help for your mental health, <a href="https://111.nhs.uk/triage/check-your-mental-health-symptoms" class="text-white"
+                    <li>If you need urgent help for your mental health, <a
+                            href="https://111.nhs.uk/triage/check-your-mental-health-symptoms" class="text-white"
                             target="_blank" rel="noopener noreferrer"><strong>get help from NHS 111 online</strong></a>
                         or call <a href="tel:111"><strong>111</strong></a>.</li>
                 </ul>
@@ -180,8 +223,10 @@
                 <div class="col-md-4 mb-3">
                     <h5>Follow Us</h5>
                     <div class="social-icons">
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="text-light mx-2" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="text-light mx-2" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                            class="text-light mx-2" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                            class="text-light mx-2" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <!-- Newsletter Signup -->
