@@ -20,7 +20,7 @@ body {
     background-image: url('../images/hero.png');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 95vh;
     color: white;
     display: flex;
     align-items: center;

@@ -182,7 +182,7 @@ The live link can be found here - https://catrin.is-a.dev/wellness-one/
 
 - Used [Readme Template](https://github.com/Code-Institute-Solutions/readme-template) by Code Institute
 - The ReadMe file was rewritten and structured using ChatGPT to ensure clarity and professionalism
-- Mental health information adapted from [NHS](https://www.nhs.uk/mental-health/) and [Mind.org](https://www.mind.org.uk/) resources.
+- Mental health information and stress management tips adapted from [NHS](https://www.nhs.uk/mental-health/) and [Mind.org](https://www.mind.org.uk/) resources.
 - The font was taken from [Google Fonts](https://fonts.google.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
