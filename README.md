@@ -39,25 +39,34 @@ The wireframes were designed to reflect the simple and structured layout of Well
 
 1. **Landing Section**:
     - Features a hero image with a calming background, a concise welcome message, and navigation links.
-    ![Landing Wireframe](assets/wireframes/Landing.png)
+
+![Landing Wireframe](assets/wireframes/landing.png)
+
 2. **Mental Health Information Section**:
     - Divided into easy-to-read subsections covering common challenges like anxiety and depression.
-    ![Mental Health Information Wireframe](assets/wireframes/MentalHealthInformation.png)
-3. **Stress Management Section**:
+
+![Mental Health Information Wireframe](assets/wireframes/mental-health-info.png)
+
+3. **Stress Management Tips Section**:
   - Displays practical advice in a bullet point or list format for quick implementation.
-  ![Stress Management Wireframe](assets/wireframes/StressManagement.png)
+
+![Stress Management Tips Wireframe](assets/wireframes/stress-management.png)
+
 4. **Resources Section**:
   - Includes external links to trusted organisations and tools.
-  ![Resources Wireframe](assets/wireframes/Resources.png)
+
+![Resources Wireframe](assets/wireframes/resources.png)
+
 5. **Footer**:
   - Contains social media icons, a contact email, and any disclaimers or additional notes.
-  ![Footer Wireframe](assets/wireframes/Footer.png)
+
+![Footer Wireframe](assets/wireframes/footer.png)
 
 ## Additional UX/UI Considerations
 
 **Accessibility**:
   - Colour contrast and font sizes were tested to ensure readability for users with visual impairments. The chosen colour scheme, shown below, was selected to provide a calming and soothing experience:
-  ![Colour Scheme](assets/images/ColourSchemes.png)
+![Colour Scheme](assets/images/readme-images/colour-scheme.png)
   - The navigation bar and buttons are large and easy to click, improving usability for individuals with motor impairments.
 
 **User Flow**:
@@ -77,21 +86,21 @@ In this section, you should go over the different parts of your project, and des
   - A responsive navigation bar located at the top of the page provides links to all sections: Home, Mental Health Info, Stress Management Tips, and Resources.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-  ![Nav Bar](assets/images/readme-images/nav-bar.png)
+![Nav Bar](assets/images/readme-images/nav-bar.png)
 
 - **The landing page image**
 
   - The landing section includes a soothing background image with an uplifting welcome message, introducing the site's purpose and encouraging users to explore.
   - This feature creates a positive first impression, inviting users to learn more about mental health.
 
-  ![Landing Page](assets/images/readme-images/landing.png)
+![Landing Page](assets/images/readme-images/landing.png)
 
 - **Mental Health Information Section**
 
   - This section outlines common mental health challenges like anxiety and depression, explained in a simple and approachable tone.
   - It provides value by educating users without overwhelming them, making mental health topics more accessible.
 
-  ![Mental Health Information Section](assets/images/readme-images/mental-health-info.png)
+![Mental Health Information Section](assets/images/readme-images/mental-health-info.png)
 
 
 - **Stress Management Tips Section**
@@ -99,21 +108,21 @@ In this section, you should go over the different parts of your project, and des
   - A concise list of practical stress management techniques, such as breathing exercises and time management tips, is included here.
   - Users gain actionable advice that they can implement immediately to improve their mental well-being.
 
-  ![Stress Management Tips Section](assets/images/readme-images/stress-management-tips.png)
+![Stress Management Tips Section](assets/images/readme-images/stress-management-tips.png)
 
 - **Resources Section**
 
   - Links to trusted mental health organisations, helplines, and articles are provided in this section.
   - This feature ensures users can easily find further support if needed.
 
-  ![Resources Section](assets/images/readme-images/resources.png)
+![Resources Section](assets/images/readme-images/resources.png)
 
 - **The Footer**
 
   - The footer includes links to the website's social media accounts and an email contact for feedback or additional queries.
   - By encouraging users to connect, this section fosters a sense of community and support.
 
-  ![Footer](assets/images/readme-images/footer.png)
+![Footer](assets/images/readme-images/footer.png)
 
 ### Features Left to Implement
 
